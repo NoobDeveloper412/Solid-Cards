@@ -1,0 +1,199 @@
+.border-radius-100 {
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+}
+/*
+ * ===================================================================================
+ *
+ *	STATE STYLES
+ *
+ * ===================================================================================
+*/
+.solid-tabs {
+  /* tab-designs checked states */
+}
+.solid-tabs .tab-content.is-tab-active {
+  display: list-item;
+}
+.solid-tabs .tab-marker label:hover {
+  background: #DDDDDD !important;
+  color: #494227 !important;
+  cursor: pointer;
+  z-index: 11 !important;
+}
+.solid-tabs .tab-marker label:hover span:before,
+.solid-tabs .tab-marker label:hover span:after {
+  background: #DDDDDD !important;
+  z-index: 12 !important;
+}
+.solid-tabs .tab-marker label:hover svg {
+  fill: #DDDDDD !important;
+}
+.solid-tabs .tab-marker.tab-marker-arrow label:hover:before {
+  border-top: 10px solid #03a9f4;
+  opacity: 0;
+}
+.solid-tabs .tab-design-1 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-4 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-5 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-8 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-9 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-10 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-11 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-14 .tab-marker [type="radio"]:checked ~ label {
+  background: #ffffff !important;
+  color: #494227 !important;
+  z-index: 15;
+}
+.solid-tabs .tab-design-1 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-4 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-5 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-8 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-9 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-10 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-11 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-14 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-1 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-4 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-5 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-8 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-9 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-10 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-11 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-14 .tab-marker [type="radio"]:checked ~ label span:before {
+  background: #ffffff !important;
+}
+.solid-tabs .tab-design-1 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-4 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-5 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-8 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-9 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-10 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-11 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-14 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label {
+  background: black !important;
+  color: white !important;
+}
+.solid-tabs .tab-design-1 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-4 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-5 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-8 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-9 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-10 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-11 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-14 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before {
+  border-top: 10px solid black;
+  opacity: 1 !important;
+}
+.solid-tabs .tab-design-1 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-4 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-5 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-8 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-9 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-10 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-11 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-14 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-1 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-4 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-5 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-8 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-9 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-10 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-11 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-14 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after {
+  background: black !important;
+}
+.solid-tabs .tab-design-2 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-3 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-6 .tab-marker [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-7 .tab-marker [type="radio"]:checked ~ label {
+  background: #ffffff !important;
+  color: #494227 !important;
+  z-index: 15;
+}
+.solid-tabs .tab-design-2 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-3 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-6 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-7 .tab-marker [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-2 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-3 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-6 .tab-marker [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-7 .tab-marker [type="radio"]:checked ~ label span:after {
+  background: #ffffff !important;
+}
+.solid-tabs .tab-design-2 .tab-marker [type="radio"]:checked ~ label svg,
+.solid-tabs .tab-design-3 .tab-marker [type="radio"]:checked ~ label svg,
+.solid-tabs .tab-design-6 .tab-marker [type="radio"]:checked ~ label svg,
+.solid-tabs .tab-design-7 .tab-marker [type="radio"]:checked ~ label svg {
+  fill: #ffffff !important;
+  z-index: 15;
+}
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-tight label:hover,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-tight label:hover,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-tight label:hover,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-tight label:hover {
+  background: #ffffff;
+  color: #494227;
+  cursor: pointer;
+  z-index: 15;
+}
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-tight label:hover span:before,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-tight label:hover span:before,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-tight label:hover span:before,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-tight label:hover span:before,
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-tight label:hover span:after,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-tight label:hover span:after,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-tight label:hover span:after,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-tight label:hover span:after {
+  background: #ffffff;
+}
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label {
+  background: black !important;
+  color: white !important;
+}
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label:before {
+  border-top: 10px solid black;
+  opacity: 1 !important;
+}
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:before,
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label span:after {
+  background: black !important;
+}
+.solid-tabs .tab-design-2 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label svg,
+.solid-tabs .tab-design-3 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label svg,
+.solid-tabs .tab-design-6 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label svg,
+.solid-tabs .tab-design-7 .tab-marker.tab-marker-arrow [type="radio"]:checked ~ label svg {
+  fill: black !important;
+  z-index: 15;
+}
+.solid-tabs .tab-design-12 .tab-marker path {
+  fill: #03a9f4;
+}
+.solid-tabs .tab-design-12 .tab-marker [type="radio"]:checked ~ label {
+  z-index: 15 !important;
+}
+.solid-tabs .tab-design-12 .tab-marker [type="radio"]:checked ~ label i {
+  color: black;
+}
+.solid-tabs .tab-design-12 .tab-marker [type="radio"]:checked ~ label path {
+  fill: #ffffff !important;
+}
+.solid-tabs .tab-design-12 .tab-marker label:hover i {
+  color: black;
+}
+.solid-tabs .tab-design-12 .tab-marker label:hover path {
+  fill: #DDDDDD;
+}

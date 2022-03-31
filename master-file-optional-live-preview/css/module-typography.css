@@ -1,0 +1,98 @@
+.border-radius-100 {
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+}
+/* heading styles */
+.solid-profile-cards {
+  /* texts alignments */
+  /* text sizes */
+  /* text colors */
+  /* blockquote */
+  /* text-callout */
+  /* icons */
+}
+.solid-profile-cards .heading-border-bottom-5 {
+  border-bottom: 5px solid #03a9f4;
+}
+.solid-profile-cards .heading-border-bottom-3 {
+  border-bottom: 3px solid #03a9f4;
+}
+.solid-profile-cards .heading-border-left-5 {
+  padding-left: 0.5em;
+  border-left: 5px solid #03a9f4;
+}
+.solid-profile-cards .text-center {
+  text-align: center;
+}
+.solid-profile-cards .text-left {
+  text-align: left;
+}
+.solid-profile-cards .text-right {
+  text-align: right;
+}
+.solid-profile-cards .text-x-large {
+  font-size: 1.75em;
+}
+.solid-profile-cards .text-large {
+  font-size: 1.15em;
+}
+.solid-profile-cards .text-medium {
+  font-size: 0.875em;
+}
+.solid-profile-cards .text-small {
+  font-size: 0.725em;
+}
+.solid-profile-cards .text-x-small {
+  font-size: 0.625em;
+}
+.solid-profile-cards .text-muted {
+  color: #A9A9A9;
+}
+.solid-profile-cards .text-warning {
+  color: #F9470E;
+}
+.solid-profile-cards .text-success {
+  color: #37B634;
+}
+.solid-profile-cards .text-info {
+  color: #42ACF9;
+}
+.solid-profile-cards .lh-1-5 {
+  line-height: 1.5 !important;
+}
+.solid-profile-cards blockquote {
+  line-height: 1.5;
+  border-left: 6px solid #67c0f7;
+  padding: 0.5em 1.5em 0.5em 4%;
+  background: #F9F9F9;
+  font-style: italic;
+  font-size: 1.1em;
+  margin-left: 3.5%;
+}
+.solid-profile-cards .text-callout {
+  display: block;
+  padding: 1em;
+  background: #5C5C5C;
+  color: #fff;
+  width: 40%;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  font-style: italic;
+  -webkit-box-shadow: 1px 3px 3px 0 rgba(97, 97, 97, 0.33);
+     -moz-box-shadow: 1px 3px 3px 0 rgba(97, 97, 97, 0.33);
+          box-shadow: 1px 3px 3px 0 rgba(97, 97, 97, 0.33);
+}
+.solid-profile-cards .text-callout-left {
+  float: left;
+  margin: 1em 1em 0.5em 0;
+}
+.solid-profile-cards .text-callout-right {
+  float: right;
+  margin: 1em 0 0.5em 1em;
+}
+.solid-profile-cards .fa {
+  margin-right: 0.575em;
+  width: 1em;
+}

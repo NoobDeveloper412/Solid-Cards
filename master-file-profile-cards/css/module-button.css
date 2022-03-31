@@ -1,0 +1,404 @@
+.border-radius-100 {
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+}
+/* buttons */
+.solid-profile-cards {
+  /* social buttons */
+}
+.solid-profile-cards a.btn {
+  color: white;
+}
+.solid-profile-cards .btn {
+  text-transform: uppercase;
+  position: relative;
+  padding: 0.625em 1.3625em;
+  font-size: 0.75em;
+  margin: 0 6px 10px 0;
+  color: rgba(255, 255, 255, 0.86);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+.solid-profile-cards .btn:hover {
+  cursor: pointer;
+}
+.solid-profile-cards .btn .fa {
+  margin-right: 0.25em;
+}
+.solid-profile-cards .btn-big {
+  font-size: 1em;
+}
+.solid-profile-cards .btn-small {
+  font-size: 0.6em;
+}
+.solid-profile-cards .btn-x-small {
+  font-size: 0.5em;
+}
+.solid-profile-cards .btn-default {
+  background: #03a9f4;
+  -webkit-box-shadow: 0 4px 0 0 #0286c2;
+     -moz-box-shadow: 0 4px 0 0 #0286c2;
+          box-shadow: 0 4px 0 0 #0286c2;
+}
+.solid-profile-cards .btn-default:hover {
+  background: #039fe5;
+}
+.solid-profile-cards .btn-muted {
+  background: #868686;
+  -webkit-box-shadow: 0 4px 0 0 #6d6d6d;
+     -moz-box-shadow: 0 4px 0 0 #6d6d6d;
+          box-shadow: 0 4px 0 0 #6d6d6d;
+}
+.solid-profile-cards .btn-muted:hover {
+  background: #7e7e7e;
+}
+.solid-profile-cards .btn-alternate {
+  background: #06b2a2;
+  -webkit-box-shadow: 0 4px 0 0 #048175;
+     -moz-box-shadow: 0 4px 0 0 #048175;
+          box-shadow: 0 4px 0 0 #048175;
+}
+.solid-profile-cards .btn-alternate:hover {
+  background: #06a395;
+}
+.solid-profile-cards .btn-success {
+  background: #0b9936;
+  -webkit-box-shadow: 0 4px 0 0 #086925;
+     -moz-box-shadow: 0 4px 0 0 #086925;
+          box-shadow: 0 4px 0 0 #086925;
+}
+.solid-profile-cards .btn-success:hover {
+  background: #0a8b31;
+}
+.solid-profile-cards .btn-info {
+  background: #0583bb;
+  -webkit-box-shadow: 0 4px 0 0 #046089;
+     -moz-box-shadow: 0 4px 0 0 #046089;
+          box-shadow: 0 4px 0 0 #046089;
+}
+.solid-profile-cards .btn-info:hover {
+  background: #0579ac;
+}
+.solid-profile-cards .btn-danger {
+  background: #d0380b;
+  -webkit-box-shadow: 0 4px 0 0 #a02b08;
+     -moz-box-shadow: 0 4px 0 0 #a02b08;
+          box-shadow: 0 4px 0 0 #a02b08;
+}
+.solid-profile-cards .btn-danger:hover {
+  background: #c1340a;
+}
+.solid-profile-cards .btn-caution {
+  background: #dd840d;
+  -webkit-box-shadow: 0 4px 0 0 #ad670a;
+     -moz-box-shadow: 0 4px 0 0 #ad670a;
+          box-shadow: 0 4px 0 0 #ad670a;
+}
+.solid-profile-cards .btn-caution:hover {
+  background: #cf7b0c;
+}
+.solid-profile-cards .btn-warning {
+  background: #ec4848;
+  -webkit-box-shadow: 0 4px 0 0 #e71a1a;
+     -moz-box-shadow: 0 4px 0 0 #e71a1a;
+          box-shadow: 0 4px 0 0 #e71a1a;
+}
+.solid-profile-cards .btn-warning:hover {
+  background: #eb3a3a;
+}
+.solid-profile-cards .btn-flat {
+  -webkit-box-shadow: none !important;
+     -moz-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.solid-profile-cards .btn-social {
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 20px 0;
+}
+.solid-profile-cards .btn-social .btn-social-count,
+.solid-profile-cards .btn-social .btn-social-description,
+.solid-profile-cards .btn-social .btn-social-media {
+  width: 65px;
+}
+.solid-profile-cards .btn-social .btn-social-count {
+  display: inline-block;
+  height: 25px;
+  background: white;
+  line-height: 2;
+  -webkit-border-top-left-radius: 5px;
+     -moz-border-radius-topleft: 5px;
+          border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+     -moz-border-radius-topright: 5px;
+          border-top-right-radius: 5px;
+  color: black;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #9C9A9A;
+}
+.solid-profile-cards .btn-social .btn-social-description {
+  position: relative;
+  display: block;
+  padding: 2px 5px;
+  color: white;
+  background: #1f1f1f;
+  font-size: 0.75em;
+  overflow: hidden;
+}
+.solid-profile-cards .btn-social .btn-social-description:after {
+  width: 100%;
+  height: 100%;
+  padding: 2px 0;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: #1f1f1f;
+  z-index: 100;
+  -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+       -o-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+}
+.solid-profile-cards .btn-social .btn-social-media {
+  position: relative;
+  display: inline-block;
+  height: 23px;
+  background: #03a9f4;
+  padding-top: 3px;
+  -webkit-border-bottom-left-radius: 5px;
+     -moz-border-radius-bottomleft: 5px;
+          border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+     -moz-border-radius-bottomright: 5px;
+          border-bottom-right-radius: 5px;
+  font-size: 1em;
+}
+.solid-profile-cards .btn-social .btn-social-media i {
+  margin: 0;
+  color: white !important;
+  text-shadow: 1px 1px 1px #747272;
+}
+.solid-profile-cards .btn-social.btn-social-facebook .btn-social-media {
+  background: #536FAC;
+}
+.solid-profile-cards .btn-social.btn-social-facebook .btn-social-description:after {
+  content: "Facebook";
+}
+.solid-profile-cards .btn-social.btn-social-twitter .btn-social-media {
+  background: #2FAFFA;
+}
+.solid-profile-cards .btn-social.btn-social-twitter .btn-social-description:after {
+  content: "Twitter";
+}
+.solid-profile-cards .btn-social.btn-social-rss .btn-social-media {
+  background: #E97026;
+}
+.solid-profile-cards .btn-social.btn-social-rss .btn-social-description:after {
+  content: "Rss";
+}
+.solid-profile-cards .btn-social.btn-social-linkedin .btn-social-media {
+  background: #0274B3;
+}
+.solid-profile-cards .btn-social.btn-social-linkedin .btn-social-description:after {
+  content: "Linkedin";
+}
+.solid-profile-cards .btn-social.btn-social-google-plus .btn-social-media {
+  background: #d64b2e;
+}
+.solid-profile-cards .btn-social.btn-social-google-plus .btn-social-description:after {
+  content: "Google+";
+}
+.solid-profile-cards .btn-social.btn-social-instagram .btn-social-media {
+  background: #967157;
+}
+.solid-profile-cards .btn-social.btn-social-instagram .btn-social-description:after {
+  content: "Instagram";
+}
+.solid-profile-cards .btn-social.btn-social-pinterest .btn-social-media {
+  background: #BD081C;
+}
+.solid-profile-cards .btn-social.btn-social-pinterest .btn-social-description:after {
+  content: "Pinterest";
+}
+.solid-profile-cards .btn-social.btn-social-tumblr .btn-social-media {
+  background: #2C4762;
+}
+.solid-profile-cards .btn-social.btn-social-tumblr .btn-social-description:after {
+  content: "Tumblr";
+}
+.solid-profile-cards .btn-social.btn-social-vine .btn-social-media {
+  background: #00A279;
+}
+.solid-profile-cards .btn-social.btn-social-vine .btn-social-description:after {
+  content: "Vine";
+}
+.solid-profile-cards .btn-social.btn-social-flickr .btn-social-media {
+  background: #ED006E;
+}
+.solid-profile-cards .btn-social.btn-social-flickr .btn-social-description:after {
+  content: "Flickr";
+}
+.solid-profile-cards .btn-social.btn-social-github .btn-social-media {
+  background: #000;
+}
+.solid-profile-cards .btn-social.btn-social-github .btn-social-description:after {
+  content: "Github";
+}
+.solid-profile-cards .btn-social.btn-social-dribbble .btn-social-media {
+  background: #F16798;
+}
+.solid-profile-cards .btn-social.btn-social-dribbble .btn-social-description:after {
+  content: "Dribbble";
+}
+.solid-profile-cards .btn-social.btn-social-paypal .btn-social-media {
+  background: #00437D;
+}
+.solid-profile-cards .btn-social.btn-social-paypal .btn-social-description:after {
+  content: "Paypal";
+}
+.solid-profile-cards .btn-social.btn-social-reddit .btn-social-media {
+  background: #FE1500;
+}
+.solid-profile-cards .btn-social.btn-social-reddit .btn-social-description:after {
+  content: "Reddit";
+}
+.solid-profile-cards .btn-social.btn-social-behance .btn-social-media {
+  background: #319DD4;
+}
+.solid-profile-cards .btn-social.btn-social-behance .btn-social-description:after {
+  content: "Behance";
+}
+.solid-profile-cards .btn-social.btn-social-youtube .btn-social-media {
+  background: #DF2926;
+}
+.solid-profile-cards .btn-social.btn-social-youtube .btn-social-description:after {
+  content: "YouTube";
+}
+.solid-profile-cards .btn-social.btn-social-delicious .btn-social-media {
+  background: #3399FF;
+}
+.solid-profile-cards .btn-social.btn-social-delicious .btn-social-description:after {
+  content: "Delicious";
+}
+.solid-profile-cards .btn-social.btn-social-vimeo .btn-social-media {
+  background: #17B3E8;
+}
+.solid-profile-cards .btn-social.btn-social-vimeo .btn-social-description:after {
+  content: "Vimeo";
+}
+.solid-profile-cards .btn-social.btn-social-stumbleupon .btn-social-media {
+  background: #EB4924;
+}
+.solid-profile-cards .btn-social.btn-social-stumbleupon .btn-social-description:after {
+  content: "StumbleUpon";
+}
+.solid-profile-cards .btn-social.btn-social-weibo .btn-social-media {
+  background: #EE1319;
+}
+.solid-profile-cards .btn-social.btn-social-weibo .btn-social-description:after {
+  content: "Weibo";
+}
+.solid-profile-cards .btn-social.btn-social-foursquare .btn-social-media {
+  background: #FA4778;
+}
+.solid-profile-cards .btn-social.btn-social-foursquare .btn-social-description:after {
+  content: "FourSquare";
+}
+.solid-profile-cards .btn-social.btn-social-spotify .btn-social-media {
+  background: #1ED760;
+}
+.solid-profile-cards .btn-social.btn-social-spotify .btn-social-description:after {
+  content: "Spotify";
+}
+.solid-profile-cards .btn-social.btn-social-soundcloud .btn-social-media {
+  background: #F8500F;
+}
+.solid-profile-cards .btn-social.btn-social-soundcloud .btn-social-description:after {
+  content: "SoundCloud";
+}
+.solid-profile-cards .btn-social.btn-social-dropbox .btn-social-media {
+  background: #007EE6;
+}
+.solid-profile-cards .btn-social.btn-social-dropbox .btn-social-description:after {
+  content: "DropBox";
+}
+.solid-profile-cards .btn-social.btn-social-stack-overflow .btn-social-media {
+  background: #E04006;
+}
+.solid-profile-cards .btn-social.btn-social-stack-overflow .btn-social-description:after {
+  content: "Stack OVFLW";
+}
+.solid-profile-cards .btn-social.btn-social-xing .btn-social-media {
+  background: #00595E;
+}
+.solid-profile-cards .btn-social.btn-social-xing .btn-social-description:after {
+  content: "Xing";
+}
+.solid-profile-cards .btn-social.btn-social-vk .btn-social-media {
+  background: #4C75A3;
+}
+.solid-profile-cards .btn-social.btn-social-vk .btn-social-description:after {
+  content: "VKontakte";
+}
+.solid-profile-cards .btn-social.btn-social-skype .btn-social-media {
+  background: #00B1F3;
+}
+.solid-profile-cards .btn-social.btn-social-skype .btn-social-description:after {
+  content: "Skype";
+}
+.solid-profile-cards .btn-social.btn-social-wechat .btn-social-media {
+  background: #56B849;
+}
+.solid-profile-cards .btn-social.btn-social-wechat .btn-social-description:after {
+  content: "Wechat";
+}
+.solid-profile-cards .btn-social.btn-social-codepen .btn-social-media {
+  background: #000000;
+}
+.solid-profile-cards .btn-social.btn-social-codepen .btn-social-description:after {
+  content: "CodePen";
+}
+.solid-profile-cards .btn-social:hover .btn-social-description:after {
+  left: 0;
+}
+.solid-profile-cards .btn-circular {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+}
+.solid-profile-cards .btn-circular .fa {
+  margin: 0 !important;
+  text-align: center;
+  font-size: 1em;
+  font-size: 18px;
+  line-height: 29px;
+}
+.solid-profile-cards .btn-facebook {
+  background: #3a5795;
+  color: white !important;
+}
+.solid-profile-cards .btn-facebook:hover {
+  background: #334c83;
+}
+.solid-profile-cards .btn-twitter {
+  background: #1da1f2;
+  color: white !important;
+}
+.solid-profile-cards .btn-twitter:hover {
+  background: #0d95e8;
+}
+.solid-profile-cards .btn-google-plus {
+  background: #de5448;
+  color: white !important;
+}
+.solid-profile-cards .btn-google-plus:hover {
+  background: #da4032;
+}

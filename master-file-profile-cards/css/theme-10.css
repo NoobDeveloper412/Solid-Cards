@@ -1,0 +1,63 @@
+.border-radius-100 {
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+}
+.demo-col {
+  background: #ae0f57;
+}
+/* typography */
+.solid-profile-cards .heading-border-bottom-5 {
+  border-bottom: 5px solid #ae0f57;
+}
+.solid-profile-cards blockquote {
+  border-left: 6px solid #ae0f57;
+}
+.solid-profile-cards .heading-border-left-5 {
+  border-left: 5px solid #ae0f57;
+}
+.solid-profile-cards .fa.fa-bars {
+  color: #ae0f57;
+}
+.solid-profile-cards .text-callout {
+  background: #ae0f57;
+}
+.solid-profile-cards .btn-default {
+  background: #ae0f57;
+  -webkit-box-shadow: 0 4px 0 0 #7f0b40;
+     -moz-box-shadow: 0 4px 0 0 #7f0b40;
+          box-shadow: 0 4px 0 0 #7f0b40;
+}
+.solid-profile-cards .btn-default:hover {
+  background: #a00e50;
+}
+.solid-profile-cards .profile-card-design-1 .profile-card-header {
+  background: #ae0f57;
+}
+.solid-profile-cards .profile-card-container ::-webkit-scrollbar-thumb {
+  background: #ae0f57;
+}
+.solid-profile-cards .profile-card-design-1 .profile-card-body .profile-card-body-details .list-bars li .bars .percentage {
+  background: #ae0f57;
+}
+.solid-profile-cards .profile-card-design-2 .profile-card-header,
+.solid-profile-cards .profile-card-design-3 .profile-card-header {
+  background: #ae0f57;
+}
+.solid-profile-cards .profile-card-design-4 .profile-card-container {
+  border: 3px solid #ae0f57;
+}
+.solid-profile-cards .profile-card-design-5 .profile-card-container {
+  border-top: 7px solid #ae0f57;
+  border-bottom: 7px solid #ae0f57;
+}
+.solid-profile-cards .profile-card-design-10 .profile-card-body .profile-card-body-picture:after {
+  background: #ae0f57;
+}
+.accordion-container > .accordion-level > label {
+  background: #ae0f57;
+  border-bottom: 1px solid #920d49;
+}
+.solid-profile-cards .profile-card-design-9 .profile-card-container {
+  background: #210311;
+}

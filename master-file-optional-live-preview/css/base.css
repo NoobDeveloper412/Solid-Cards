@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,400|Lato:900');
+.border-radius-100 {
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+}
+html {
+  font-size: 1em;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background: #cdcdcd url(../img/bg.jpg);
+  font-family: "Open Sans", "sans-serif", "serif";
+  color: #111;
+}
+.solid-profile-cards {
+  /* headers, major third */
+}
+.solid-profile-cards * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.solid-profile-cards article,
+.solid-profile-cards aside,
+.solid-profile-cards details,
+.solid-profile-cards figcaption,
+.solid-profile-cards figure,
+.solid-profile-cards footer,
+.solid-profile-cards header,
+.solid-profile-cards hgroup,
+.solid-profile-cards main,
+.solid-profile-cards menu,
+.solid-profile-cards nav,
+.solid-profile-cards section,
+.solid-profile-cards summary {
+  display: block;
+}
+.solid-profile-cards audio,
+.solid-profile-cards canvas,
+.solid-profile-cards progress,
+.solid-profile-cards video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.solid-profile-cards audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.solid-profile-cards [hidden],
+.solid-profile-cards template {
+  display: none;
+}
+.solid-profile-cards a {
+  background-color: transparent;
+  text-decoration: none;
+}
+.solid-profile-cards a:link,
+.solid-profile-cards a:visited {
+  outline: 0;
+  color: #9A9A9A;
+}
+.solid-profile-cards a:active,
+.solid-profile-cards a:hover {
+  outline: 0;
+  color: #127FBE;
+}
+.solid-profile-cards abbr[title] {
+  border-bottom: 1px dotted;
+}
+.solid-profile-cards b,
+.solid-profile-cards strong {
+  font-weight: bolder;
+}
+.solid-profile-cards dfn {
+  font-style: italic;
+}
+.solid-profile-cards h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.solid-profile-cards mark {
+  background: #ff0;
+  color: #000;
+}
+.solid-profile-cards small {
+  font-size: 80%;
+}
+.solid-profile-cards sub,
+.solid-profile-cards sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.solid-profile-cards sup {
+  top: -0.5em;
+}
+.solid-profile-cards sub {
+  bottom: -0.25em;
+}
+.solid-profile-cards img {
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+.solid-profile-cards iframe {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.solid-profile-cards svg:not(:root) {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.solid-profile-cards figure {
+  margin: 1em 40px;
+}
+.solid-profile-cards hr {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+}
+.solid-profile-cards pre {
+  overflow: auto;
+}
+.solid-profile-cards code,
+.solid-profile-cards kbd,
+.solid-profile-cards pre,
+.solid-profile-cards samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.solid-profile-cards button,
+.solid-profile-cards input,
+.solid-profile-cards optgroup,
+.solid-profile-cards select,
+.solid-profile-cards textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.solid-profile-cards button {
+  overflow: visible;
+}
+.solid-profile-cards button,
+.solid-profile-cards select {
+  text-transform: none;
+}
+.solid-profile-cards button,
+.solid-profile-cards html input[type="button"],
+.solid-profile-cards input[type="reset"],
+.solid-profile-cards input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  border: 0;
+}
+.solid-profile-cards button[disabled],
+.solid-profile-cards html input[disabled] {
+  cursor: default;
+}
+.solid-profile-cards button::-moz-focus-inner,
+.solid-profile-cards input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.solid-profile-cards input {
+  line-height: normal;
+}
+.solid-profile-cards input[type="checkbox"],
+.solid-profile-cards input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+.solid-profile-cards input[type="number"]::-webkit-inner-spin-button,
+.solid-profile-cards input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.solid-profile-cards input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.solid-profile-cards input[type="search"]::-webkit-search-cancel-button,
+.solid-profile-cards input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.solid-profile-cards fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.solid-profile-cards legend {
+  border: 0;
+  padding: 0;
+}
+.solid-profile-cards textarea {
+  overflow: auto;
+}
+.solid-profile-cards optgroup {
+  font-weight: bold;
+}
+.solid-profile-cards table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1em;
+}
+.solid-profile-cards td,
+.solid-profile-cards th {
+  padding: 0.35em 1em;
+}
+.solid-profile-cards tr {
+  display: table-row;
+}
+.solid-profile-cards ul,
+.solid-profile-cards ol {
+  margin: 0;
+  padding: 0;
+}
+.solid-profile-cards ul {
+  list-style: none;
+}
+.solid-profile-cards ol {
+  list-style: none;
+  counter-reset: li;
+}
+.solid-profile-cards h1,
+.solid-profile-cards h2,
+.solid-profile-cards h3,
+.solid-profile-cards h4,
+.solid-profile-cards h5,
+.solid-profile-cards h6 {
+  font-family: "Lato", "sans-serif";
+}
+.solid-profile-cards h1,
+.solid-profile-cards h2,
+.solid-profile-cards h3,
+.solid-profile-cards h4 {
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.solid-profile-cards h1 {
+  font-size: 2.441em;
+}
+.solid-profile-cards h2 {
+  font-size: 1.953em;
+}
+.solid-profile-cards h3 {
+  font-size: 1.563em;
+}
+.solid-profile-cards h4 {
+  font-size: 1.15em;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.solid-profile-cards h5 {
+  font-size: 1em;
+}
+.solid-profile-cards h6 {
+  font-size: 0.8em;
+}
+.solid-profile-cards p {
+  line-height: 1.45;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  color: #3e3e3e;
+}
+.solid-profile-cards iframe {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
